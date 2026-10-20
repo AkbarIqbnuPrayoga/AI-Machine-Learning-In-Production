@@ -7,31 +7,6 @@ Presentation slides and reference materials bridging academic machine learning a
 - `presentation.html` - Standalone interactive presentation with built-in presenter notes, navigation controls, and timer (can be opened directly in any modern web browser).
 - `presentation.md` - Source slide deck formatted for Marp, containing the slide contents, custom CSS styling, and detailed speaker notes.
 
-## Viewing and Building the Slides
-
-### Open the Slides
-Open `presentation.html` directly in your browser:
-- `F` - Toggle fullscreen mode
-- `P` - Toggle presenter mode (displays speaker notes and presentation timer)
-- `O` - Toggle slide overview grid
-
-### Build or Export with Marp CLI
-To customize `presentation.md` and export to other formats, use the [Marp CLI](https://github.com/marp-team/marp-cli):
-
-```bash
-# Start a live preview server with automatic reload
-npx @marp-team/marp-cli -s .
-
-# Export markdown slides to standalone HTML
-npx @marp-team/marp-cli presentation.md -o presentation.html
-
-# Export to PDF format (requires Chromium)
-npx @marp-team/marp-cli presentation.md --pdf -o presentation.pdf
-
-# Export to PowerPoint presentation (PPTX)
-npx @marp-team/marp-cli presentation.md --pptx -o presentation.pptx
-```
-
 ## Topics Covered
 
 ### Business Objectives of AI
